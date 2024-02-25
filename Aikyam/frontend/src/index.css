@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+:root{
+  --blue:#293753;
+  --blue12:#0f172a;
+  --alicblue:#f0f8ff;
+  --black:#111;
+  --alicblue1:#d7ecff;
+  --alicblue2:#bde0ff;
+  --alicblue3:#a4d4ff;
+  --green:#2ECC41;
+  --blue1:#243658;
+  --white:#FFFFFF;
+  --white1:#e8e8e8;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*::-webkit-scrollbar{
+  display: none;
+}

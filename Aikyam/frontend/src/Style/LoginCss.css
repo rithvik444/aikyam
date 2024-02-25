@@ -1,0 +1,125 @@
+/* 
+:root {
+    --blue: #293753;
+    --alicblue: #f0f8ff;
+    --black: #111;
+    --alicblue1: #d7ecff;
+    --alicblue2: #bde0ff;
+    --alicblue3: #a4d4ff;
+    --green: #2ECC41;
+    --blue1: #243658;
+    --white: #FFFFFF;
+}
+*/
+
+.Body{
+    background-color:var(--alicblue);
+    color: var(--blue1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: var(--white);
+    width: 500px;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 3px;
+    min-width: 300px;
+    max-width: 500px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  
+}
+.container img{
+    width:8rem;
+    text-align: start;
+}
+form{
+  
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: larger;
+}
+input{
+   background-color: var(--alicblue);
+    border: 1px solid;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0;
+    height:fit-content;
+    width: 100%;
+}
+.extra hr{
+    width:100%;
+    margin-top: 1px;
+    z-index: 2;
+    position:relative;
+    background-color: black;
+    color: black;
+}
+.extra p{
+    margin-bottom: 0px;
+    position: absolute;
+    z-index: 2;
+    color: black;
+    font-size: large;
+    background-color: #fff;
+    padding: 0 8px;
+}
+
+.btn{
+    background-color:var(--blue1);
+    width: 100%;
+
+    border: 1px solid var(--blue1);
+    color: var(--white);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.45s ease-in-out;
+}
+.btn:hover{
+    background-color: var(--alicblue);
+    color: var(--blue1);
+}
+
+@media screen and (max-width:569px) {
+    .container{
+        width: 300px;
+    }
+}
+
+.slogan{
+    font-size:small;
+}
